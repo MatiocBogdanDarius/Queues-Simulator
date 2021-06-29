@@ -1,0 +1,44 @@
+*{
+    -fx-background-radius: 5%;
+}
+
+Label {
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+}
+
+AnchorPane{
+    -fx-background-color: rgb(13, 110, 139);
+    -fx-background-radius: 0;
+}
+
+Button {
+    -fx-background-radius: 50%;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+.start-button {
+    -fx-background-color: #42ee2a;
+}
+
+.start-button:hover{
+    -fx-background-color: #12fc00;
+
+}
+
+.clear-button{
+    -fx-background-color: #ee5353;
+}
+
+.clear-button:hover{
+    -fx-background-color: #de4343;
+}
+
+ImageView {
+    -fx-image: url('./man-pushing-a-shopping-cart.png');
+}
+#exceptionLabel {
+    -fx-text-fill: red;
+}
+
